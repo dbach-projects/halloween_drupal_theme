@@ -1,0 +1,7 @@
+parameters:
+  twig.config:
+    auto_reload: true
+
+services:
+  cache.backend.null:
+    class: Drupal\Core\Cache\NullBackendFactory

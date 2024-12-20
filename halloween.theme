@@ -1,0 +1,16 @@
+<?php
+
+function halloween_preprocess_page(&$variables) {
+  if ($variables['is_front']) {
+    $variables['#attached']['library'][] = 'halloween/css-filling';
+  }
+}
+
+function halloween_preprocess_node(&$variables) {
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if ($node) {
+    if ($node->id() == 13) {
+      $variables['#attached']['library'][] = 'halloween/node-style';
+    }
+  }
+}

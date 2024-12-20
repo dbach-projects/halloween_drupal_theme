@@ -1,0 +1,22 @@
+.contact-form {
+  max-width: 500px;
+}
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#edit-submit {
+}
+#edit-preview {
+  background-color: hsl(25, 50%, 54%);
+}
+#edit-preview:hover {
+  background-color: hsl(25, 80%, 54%);
+}
+.layout-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}

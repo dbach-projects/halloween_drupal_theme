@@ -1,0 +1,35 @@
+# halloween.libraries.yml
+global-styling:
+  css:
+    layout:
+      css/layout.css: {}
+    theme:
+      css/styles.css: {}
+      css/contact-form.css: {}
+global-scripts:
+  js:
+    js/atropos.min.js: { minified: true }
+    js/custom.js: {}
+
+node-style:
+  css:
+    theme:
+      css/node-style.css: {}
+
+fonts:
+  license:
+    name: SIL OPEN FONT LICENSE Version 1.1
+    url: https://fonts.google.com/specimen/Montserrat/license
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Montserrat:wght@100..900&display=swap":
+        { type: external }
+
+icons:
+  license:
+    name: Apache License
+    url: https://github.com/Remix-Design/remixicon/blob/master/License
+  css:
+    theme:
+      "https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css":
+        { type: external, minified: true }

@@ -1,0 +1,25 @@
+article div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font: var(--font-regular) var(--biggest-font-size) var(--second-font);
+}
+
+/* boder radius on iframe parent */
+td:has(> iframe) {
+  display: block;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  transform: translateZ(0px);
+  border: 3px solid var(--text-color);
+}
+
+td {
+  margin: 2rem;
+}

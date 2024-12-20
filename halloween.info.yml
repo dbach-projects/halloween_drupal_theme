@@ -1,0 +1,26 @@
+name: Halloween
+type: theme
+description: 'A halloween theme that offers extra cuteness.'
+package: Development
+core_version_requirement: '>=9.2'
+libraries:
+  - halloween/global-styling
+  - halloween/global-scripts
+  - halloween/fonts
+  - halloween/icons
+base theme: stable9
+regions:
+  logo: 'Logo'
+  primary_menu: 'Primary menu'
+  home_image: 'Home image'
+  title: 'Title'
+  header: 'Header'
+  call_to_action: 'Call to action'
+  content: 'Content'
+  home_button_text: 'Home button text'
+  block_1: 'Block 1'
+  block_2: 'Block 2'
+  block_3: 'Block 3'
+  block_4: 'Block 4'
+  block_5: 'Block 5'
+  footer: 'Footer'
