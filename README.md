@@ -2,6 +2,14 @@
 
 A Halloween based theme.
 
+## Install
+
+In a Drupal project:
+
+- create a halloween directory at: web/themes/custom/halloween
+- Add the repo contents in here
+- enable the theme inside the Drupal admin section
+
 ## Features
 
 - Drupal View
